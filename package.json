@@ -1,0 +1,31 @@
+{
+  "name": "ZIP-Starter-Kit-FLEXBOX-GRID",
+  "version": "1.0.0",
+  "description": "ZSTF - Zip Starter Kit FlexBox Grid",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zipeloo",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-data": "^1.2.1",
+    "gulp-plumber": "^1.1.0"
+  }
+}

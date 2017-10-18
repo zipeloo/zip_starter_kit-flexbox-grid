@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <title>ZIP Starter Kit</title>
+    <meta name="description" content="ZIP Starter Kit">
+    <meta name="keywords" content="ZIP Starter Kit">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
+    <meta name="theme-color" content="#7d273e">
+    <meta name="msapplication-navbutton-color" content="#7d273e">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#7d273e">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bg"><img src="/assets/img/logo.svg" class="img-responsive centered"></div>
+        <div class="col-md-12 txt-center">
+          <p>Congratulation:)</p>
+          <p>Have <b>Fun Coding!!! Bro </b></p>
+        </div>
+      </div>
+    </div>
+    
+    <noscript id="deferred-styles">
+      <link rel="stylesheet" href="assets/css/main.min.css">
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.body.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+      
+    </script>
+    <script async type="text/javascript" src="assets/js/scripts.min.js"></script>
+  </body>
+</html>
