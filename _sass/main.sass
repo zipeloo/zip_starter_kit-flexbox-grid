@@ -1,6 +1,7 @@
 @import "fonts"
 @import "libs"
 @import "vars"
+@import "gridlex"
 
 *::-webkit-input-placeholder
 	color: #666
@@ -36,20 +37,5 @@ body
 	font-family: $default-font
 	overflow-x: hidden
 	opacity: 1
-.img-responsive
-	display: block
-	max-width: 100%
-	height: auto
-.txt-center
-	text-align: center
-.centered
-	position: absolute
-	top: 50%
-	left: 50%
-	transform: translate(-50%,-50%)
-.bg
-	background: linear-gradient(270deg, $grad_2, $grad_1)
-	min-height: 500px
-	img
-		margin: 0 auto
+
 @import "media" // Всегда в конце
