@@ -1,11 +1,28 @@
 @import "gridlex"
-@import "base"
-@import "vars"
 @import "fonts"
 @import "libs"
+@import "vars"
+@import "base"
 
 // MAIN SASS
+header
+  height: 600px
+  width: 100%
+  background: #000
+  background: radial-gradient(top, circle cover, #97d0e1, #427388 80%)
+  color: $clouds
 
+.content
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  margin-top: 50px
+  margin-bottom: 50px
+  padding: 25px
+.box
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+  padding: 25px
+  &:hover
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
 // MAIN SASS
 
 @import "media" // Всегда в конце
